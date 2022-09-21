@@ -1,0 +1,14 @@
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\bin\Debug\netcoreapp3.1\CalcStr.exe
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\bin\Debug\netcoreapp3.1\CalcStr.deps.json
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\bin\Debug\netcoreapp3.1\CalcStr.runtimeconfig.json
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\bin\Debug\netcoreapp3.1\CalcStr.runtimeconfig.dev.json
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\bin\Debug\netcoreapp3.1\CalcStr.dll
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\bin\Debug\netcoreapp3.1\CalcStr.pdb
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\obj\Debug\netcoreapp3.1\CalcStr.csproj.AssemblyReference.cache
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\obj\Debug\netcoreapp3.1\CalcStr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\obj\Debug\netcoreapp3.1\CalcStr.AssemblyInfoInputs.cache
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\obj\Debug\netcoreapp3.1\CalcStr.AssemblyInfo.cs
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\obj\Debug\netcoreapp3.1\CalcStr.csproj.CoreCompileInputs.cache
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\obj\Debug\netcoreapp3.1\CalcStr.dll
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\obj\Debug\netcoreapp3.1\CalcStr.pdb
+C:\Andrew\C#\ForDel\wpfCalc\CalcStr\obj\Debug\netcoreapp3.1\CalcStr.genruntimeconfig.cache

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfCalc", "wpfCalc\wpfCalc.csproj", "{3A764755-E945-4FCF-8124-2183B377C351}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpfCalc", "wpfCalc\wpfCalc.csproj", "{3A764755-E945-4FCF-8124-2183B377C351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcStr", "CalcStr\CalcStr.csproj", "{52B1949D-8F6D-4154-81B7-4957B080E100}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3A764755-E945-4FCF-8124-2183B377C351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A764755-E945-4FCF-8124-2183B377C351}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A764755-E945-4FCF-8124-2183B377C351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B1949D-8F6D-4154-81B7-4957B080E100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B1949D-8F6D-4154-81B7-4957B080E100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B1949D-8F6D-4154-81B7-4957B080E100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B1949D-8F6D-4154-81B7-4957B080E100}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
