@@ -31,16 +31,19 @@ namespace wpfCalc
         private void btn_num_Click(object sender, RoutedEventArgs e)
         {
             Button btn = (Button)sender;
-            int btnNo = Int32.Parse(btn.Content.ToString());
+            string btnNo = btn.Content.ToString();
+            if (txtBox.Text == "0")
+                txtBox.Text = btnNo;
+            else
+                txtBox.Text += btnNo;
+
             if(op=="")
             {
-                num1 = btnNo + num1 * 10;
-                txtBox.Text = num1.ToString();
+                num1 = double.Parse(txtBox.Text);
             }
             else
             {
-                num2 = btnNo + num2 * 10;
-                txtBox.Text = num2.ToString();
+                num2 = double.Parse(txtBox.Text);
             }
         }
 
@@ -49,6 +52,7 @@ namespace wpfCalc
         {
             Button btn = (Button)sender;
             op = btn.Content.ToString();
+            txtBox.Text = "0";
         }
 
         private void btn_eq_Click(object sender, RoutedEventArgs e)
@@ -115,16 +119,29 @@ namespace wpfCalc
 
         private void btn_bsp_Click(object sender, RoutedEventArgs e)
         {
+            txtBox.Text = DropLastChar(txtBox.Text);
             if(op=="")
             {
-                num1 = num1 / 10;
-                txtBox.Text = num1.ToString();
+                num1 = Double.Parse(txtBox.Text);
             }
             else
             {
-                num2 = num2 / 10;
-                txtBox.Text = num2.ToString();
+                num2 = Double.Parse(txtBox.Text);
             }
+        }
+
+        private string DropLastChar(string text)
+        {
+            if (text.Length == 1)
+                text= "0";
+            else
+            {
+                text = text.Remove(text.Length - 1, 1);
+                if (text[text.Length - 1] == ',')
+                    text = text.Remove(text.Length - 1, 1);
+            }
+            return text;
+
         }
 
         private void btn_plusminus_Click(object sender, RoutedEventArgs e)
@@ -139,6 +156,20 @@ namespace wpfCalc
                 num2 = -num2;
                 txtBox.Text = num2.ToString();
             }
+        }
+
+        private void btn_comma_Click(object sender, RoutedEventArgs e)
+        {
+            if (op == "")
+                SetComma(num1);
+            else
+                SetComma(num2);
+        }
+
+        private void SetComma(double num)
+        {
+            if (!txtBox.Text.Contains(','))
+                txtBox.Text += ",";
         }
     }
 }
